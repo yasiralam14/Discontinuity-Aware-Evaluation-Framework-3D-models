@@ -1,8 +1,9 @@
 # Quantifying Novel View Synthesis at Sharp Boundaries: A Discontinuity-Aware Evaluation Framework
 
-> **Master's Thesis** — University of Liège, TELIM Research Group  
+> **Master's Thesis** — Stevens Institute of Technology
+> **Advisor:** Philippos Mordohai
 > **Author:** Yasir Alam  
-> **Contact:** jan.held@uliege.be
+> **Contact:** yasir.alam14@gmail.com
 
 ---
 
