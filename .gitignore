@@ -1,0 +1,107 @@
+# ============================================================
+# Images & Renders (large binary files — excluded from repo)
+# ============================================================
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.tif
+*.webp
+*.exr
+*.hdr
+
+# ============================================================
+# Model Checkpoints & Outputs (can be very large)
+# ============================================================
+*.pth
+*.ckpt
+*.pt
+output/
+point_cloud/
+chkpnt*/
+cfg_args
+
+# ============================================================
+# Renders & Evaluation Outputs
+# ============================================================
+renders/
+*/test/
+*/train/
+nohup.out
+*.out
+
+# ============================================================
+# JSON result files (generated during evaluation)
+# Uncomment these lines if you want to track result JSON files
+# ============================================================
+# results.json
+# per_view.json
+# multi_results.json
+# multi_per_view.json
+# all_scenes_results.json
+# multi_all_scenes_results.json
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+*.dylib
+
+# ============================================================
+# Virtual Environments / Conda
+# ============================================================
+.env
+.venv
+env/
+venv/
+.conda/
+
+# ============================================================
+# Jupyter Notebooks artifacts
+# ============================================================
+.ipynb_checkpoints/
+*.ipynb
+
+# ============================================================
+# Logs
+# ============================================================
+logs/
+*.log
+tensorboard_logs/
+tb_logs/
+
+# ============================================================
+# Datasets (never commit raw datasets)
+# ============================================================
+data/
+datasets/
+colmap/
+
+# ============================================================
+# OS / Editor artifacts
+# ============================================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Submodule build artifacts (each model has its own build)
+# ============================================================
+models/*/build/
+models/*/dist/
+models/*/*.egg-info/
+models/*/submodules/*/build/
