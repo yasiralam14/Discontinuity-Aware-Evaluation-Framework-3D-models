@@ -1,9 +1,11 @@
 # Quantifying Novel View Synthesis at Sharp Boundaries: A Discontinuity-Aware Evaluation Framework
 
 > **Master's Thesis** — Stevens Institute of Technology
-> 
+
 > **Advisor:** Philippos Mordohai
-> **Author:** Yasir Alam  
+
+> **Author:** Yasir Alam
+
 > **Contact:** yasir.alam14@gmail.com
 
 ---
