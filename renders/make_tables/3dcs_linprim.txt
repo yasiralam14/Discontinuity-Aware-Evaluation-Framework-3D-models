@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Averaged results on TnT Scenes: Side-by-side comparison 3DCS vs LinPrim.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{c|cc}
+  \hline
+    \textbf{Regions} & \textbf{3dcs} & \textbf{linprim} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.8278 / 24.88 / 0.2271 & 0.7995 / 22.96 / 0.2728 \\
+    \textbf{Region 1} & 0.8195 / 25.21 / 0.1703 & 0.7880 / 22.79 / 0.2108 \\
+    \textbf{Region 2} & 0.7729 / 23.36 / 0.1682 & 0.7301 / 21.22 / 0.2070 \\
+    \textbf{Region 3} & 0.7313 / 21.12 / 0.2016 & 0.6759 / 19.45 / 0.2436 \\
+    \textbf{Region 4} & 0.6952 / 18.58 / 0.2330 & 0.6340 / 17.28 / 0.2836 \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

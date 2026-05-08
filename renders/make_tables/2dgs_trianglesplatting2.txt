@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Averaged results on TnT Scenes: Side-by-side comparison 2DGS vs TriangleSplatting+.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{c|cc}
+  \hline
+    \textbf{Regions} & \textbf{2dgs} & \textbf{triangle\_splatting2} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.8037 / 23.74 / 0.2809 & 0.7501 / 21.80 / 0.3480 \\
+    \textbf{Region 1} & 0.8256 / 25.32 / 0.2018 & 0.7384 / 21.82 / 0.2987 \\
+    \textbf{Region 2} & 0.7645 / 23.69 / 0.2189 & 0.6684 / 20.09 / 0.2950 \\
+    \textbf{Region 3} & 0.6944 / 21.58 / 0.2518 & 0.6132 / 18.42 / 0.3193 \\
+    \textbf{Region 4} & 0.6548 / 18.98 / 0.2901 & 0.5719 / 16.45 / 0.3655 \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

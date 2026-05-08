@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Averaged results on MP-360 Outdoor Scenes: Side-by-side comparison 3DCS vs LinPrim.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{c|cc}
+  \hline
+    \textbf{Regions} & \textbf{3dcs} & \textbf{linprim} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.7002 / 23.99 / 0.2397 & 0.7100 / 24.00 / 0.2527 \\
+    \textbf{Region 1} & 0.7644 / 28.08 / 0.1692 & 0.7669 / 27.68 / 0.1844 \\
+    \textbf{Region 2} & 0.7199 / 26.29 / 0.1782 & 0.7265 / 26.14 / 0.1842 \\
+    \textbf{Region 3} & 0.6826 / 24.05 / 0.1699 & 0.6933 / 24.04 / 0.1680 \\
+    \textbf{Region 4} & 0.6571 / 21.59 / 0.2600 & 0.6711 / 21.65 / 0.2500 \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

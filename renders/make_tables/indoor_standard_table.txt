@@ -1,0 +1,44 @@
+\begin{table}[htbp]
+  \centering
+  \setlength{\tabcolsep}{3pt}
+  \caption{Quantitative results on the \textbf{MP360 Indoor} dataset. Evaluated on SSIM, PSNR, and LPIPS.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \label{tab:tnt_results}
+  \begin{tabular}{c|c||c||c||c}
+  \hline
+     & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} \\
+  \hline
+    \textbf{Scenes} & \textbf{2dgs} & \textbf{3dcs} & \textbf{3dgs} & \textbf{3dhgs} \\
+  \hline
+    \textbf{bonsai} & 0.929 / 31.21 / 0.229 & 0.944 / 32.55 / 0.180 & 0.940 / 32.18 / 0.205 & 0.945 / 33.23 / 0.200 \\
+    \textbf{counter} & 0.890 / 28.05 / 0.234 & 0.909 / 29.06 / 0.181 & 0.906 / 29.03 / 0.201 & 0.912 / 29.65 / 0.194 \\
+    \textbf{kitchen} & 0.914 / 30.26 / 0.149 & 0.930 / 31.83 / 0.116 & 0.924 / 30.98 / 0.127 & 0.929 / 32.09 / 0.122 \\
+    \textbf{room} & 0.904 / 30.59 / 0.246 & 0.925 / 31.60 / 0.192 & 0.918 / 31.50 / 0.220 & 0.922 / 32.03 / 0.213 \\
+  \hline
+    \textbf{Average} & 0.909 / 30.03 / 0.215 & 0.927 / 31.26 / 0.167 & 0.922 / 30.92 / 0.188 & 0.927 / 31.75 / 0.182 \\
+  \hline
+     & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} \\
+  \hline
+    \textbf{Scenes} & \textbf{QGS} & \textbf{beta\_splatting} & \textbf{linprim} & \textbf{radegs} \\
+  \hline
+    \textbf{bonsai} & 0.925 / 30.43 / 0.198 & 0.960 / 34.31 / 0.152 & 0.936 / 31.07 / 0.195 & 0.946 / 30.17 / 0.169 \\
+    \textbf{counter} & 0.876 / 27.89 / 0.229 & 0.944 / 32.27 / 0.144 & 0.905 / 28.41 / 0.191 & 0.914 / 28.78 / 0.182 \\
+    \textbf{kitchen} & 0.896 / 29.28 / 0.159 & 0.946 / 33.41 / 0.106 & 0.921 / 29.94 / 0.128 & 0.932 / 30.15 / 0.116 \\
+    \textbf{room} & 0.903 / 30.68 / 0.223 & 0.947 / 34.32 / 0.160 & 0.914 / 29.96 / 0.215 & 0.928 / 29.61 / 0.186 \\
+  \hline
+    \textbf{Average} & 0.900 / 29.57 / 0.202 & 0.949 / 33.58 / 0.140 & 0.919 / 29.84 / 0.182 & 0.930 / 29.68 / 0.163 \\
+  \hline
+     & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} &  \\
+  \hline
+    \textbf{Scenes} & \textbf{radegs2} & \textbf{radfoam} & \textbf{triangle\_splatting2} &  \\
+  \hline
+    \textbf{bonsai} & 0.943 / 30.74 / 0.175 & 0.925 / 32.18 / 0.202 & 0.896 / 29.06 / 0.257 &  \\
+    \textbf{counter} & 0.908 / 28.21 / 0.192 & 0.875 / 28.53 / 0.219 & 0.874 / 26.73 / 0.232 &  \\
+    \textbf{kitchen} & 0.929 / 30.34 / 0.121 & 0.907 / 31.32 / 0.149 & 0.893 / 28.00 / 0.175 &  \\
+    \textbf{room} & 0.931 / 30.69 / 0.181 & 0.896 / 30.56 / 0.224 & 0.877 / 28.41 / 0.264 &  \\
+  \hline
+    \textbf{Average} & 0.928 / 29.99 / 0.167 & 0.901 / 30.65 / 0.199 & 0.885 / 28.05 / 0.232 &  \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

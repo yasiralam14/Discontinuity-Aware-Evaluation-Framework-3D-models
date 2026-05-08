@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Averaged results on MP-360 Outdoor Scenes: Side-by-side comparison 2DGS vs TriangleSplatting+.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{c|cc}
+  \hline
+    \textbf{Regions} & \textbf{2dgs} & \textbf{triangle\_splatting2} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.7021 / 24.15 / 0.2908 & 0.6390 / 22.78 / 0.3413 \\
+    \textbf{Region 1} & 0.7678 / 28.50 / 0.2037 & 0.7121 / 26.61 / 0.2553 \\
+    \textbf{Region 2} & 0.7240 / 26.68 / 0.2193 & 0.6576 / 24.85 / 0.2514 \\
+    \textbf{Region 3} & 0.6809 / 24.28 / 0.1839 & 0.6119 / 22.75 / 0.2284 \\
+    \textbf{Region 4} & 0.6553 / 21.53 / 0.2900 & 0.5872 / 20.31 / 0.3522 \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

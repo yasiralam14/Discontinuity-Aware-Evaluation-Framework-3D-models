@@ -1,0 +1,50 @@
+\begin{table}[htbp]
+  \centering
+  \setlength{\tabcolsep}{3pt}
+  \caption{Quantitative results on the \textbf{TnT} dataset. Evaluated on SSIM, PSNR, and LPIPS.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \label{tab:tnt_results}
+  \begin{tabular}{c|c||c||c||c}
+  \hline
+     & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} \\
+  \hline
+    \textbf{Scenes} & \textbf{2dgs} & \textbf{3dcs} & \textbf{3dgs} & \textbf{3dhgs} \\
+  \hline
+    \textbf{Barn} & 0.830 / 27.08 / 0.270 & 0.866 / 28.83 / 0.190 & 0.845 / 27.98 / 0.244 & 0.852 / 28.52 / 0.235 \\
+    \textbf{Caterpillar} & 0.743 / 22.49 / 0.318 & 0.773 / 23.11 / 0.267 & 0.771 / 23.48 / 0.270 & 0.784 / 24.10 / 0.261 \\
+    \textbf{Courthouse} & 0.782 / 21.43 / 0.312 & 0.810 / 22.77 / 0.255 & 0.808 / 22.94 / 0.270 & 0.813 / 23.30 / 0.263 \\
+    \textbf{Ignatius} & 0.757 / 21.76 / 0.275 & 0.776 / 22.57 / 0.222 & 0.772 / 22.00 / 0.242 & 0.781 / 22.61 / 0.232 \\
+    \textbf{Meetingroom} & 0.861 / 25.00 / 0.267 & 0.881 / 26.47 / 0.231 & 0.878 / 26.05 / 0.234 & 0.880 / 26.50 / 0.231 \\
+    \textbf{Truck} & 0.849 / 24.67 / 0.242 & 0.861 / 25.51 / 0.197 & 0.857 / 25.02 / 0.218 & 0.862 / 25.66 / 0.210 \\
+  \hline
+    \textbf{Average} & 0.804 / 23.74 / 0.281 & 0.828 / 24.88 / 0.227 & 0.822 / 24.58 / 0.246 & 0.829 / 25.12 / 0.239 \\
+  \hline
+     & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} \\
+  \hline
+    \textbf{Scenes} & \textbf{QGS} & \textbf{beta\_splatting} & \textbf{linprim} & \textbf{radegs} \\
+  \hline
+    \textbf{Barn} & 0.850 / 25.94 / 0.221 & 0.869 / 29.51 / 0.223 & 0.830 / 26.52 / 0.262 & 0.859 / 25.90 / 0.231 \\
+    \textbf{Caterpillar} & 0.756 / 21.32 / 0.278 & 0.823 / 25.53 / 0.244 & 0.739 / 21.74 / 0.309 & 0.776 / 21.78 / 0.269 \\
+    \textbf{Courthouse} & 0.770 / 20.99 / 0.317 & 0.768 / 21.02 / 0.319 & 0.778 / 21.25 / 0.308 & 0.756 / 19.87 / 0.330 \\
+    \textbf{Ignatius} & 0.777 / 21.02 / 0.196 & 0.814 / 24.92 / 0.240 & 0.746 / 20.68 / 0.271 & 0.773 / 20.95 / 0.237 \\
+    \textbf{Meetingroom} & 0.840 / 22.34 / 0.258 & 0.907 / 28.29 / 0.217 & 0.856 / 23.68 / 0.259 & 0.875 / 25.25 / 0.240 \\
+    \textbf{Truck} & 0.847 / 23.54 / 0.205 & 0.877 / 26.70 / 0.204 & 0.849 / 23.88 / 0.229 & 0.865 / 22.77 / 0.205 \\
+  \hline
+    \textbf{Average} & 0.807 / 22.52 / 0.246 & 0.843 / 26.00 / 0.241 & 0.800 / 22.96 / 0.273 & 0.818 / 22.75 / 0.252 \\
+  \hline
+     & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} &  \\
+  \hline
+    \textbf{Scenes} & \textbf{radegs2} & \textbf{radfoam} & \textbf{triangle\_splatting2} &  \\
+  \hline
+    \textbf{Barn} & 0.853 / 27.02 / 0.239 & 0.822 / 27.04 / 0.272 & 0.806 / 25.63 / 0.304 &  \\
+    \textbf{Caterpillar} & 0.765 / 21.46 / 0.273 & 0.711 / 21.85 / 0.346 & 0.668 / 20.43 / 0.409 &  \\
+    \textbf{Courthouse} & 0.785 / 20.45 / 0.297 & 0.783 / 21.65 / 0.303 & 0.748 / 20.09 / 0.333 &  \\
+    \textbf{Ignatius} & 0.775 / 21.31 / 0.232 & 0.695 / 21.14 / 0.340 & 0.654 / 19.18 / 0.407 &  \\
+    \textbf{Meetingroom} & 0.863 / 23.10 / 0.232 & 0.827 / 23.04 / 0.269 & 0.825 / 22.75 / 0.324 &  \\
+    \textbf{Truck} & 0.867 / 24.52 / 0.205 & 0.813 / 23.80 / 0.277 & 0.800 / 22.72 / 0.311 &  \\
+  \hline
+    \textbf{Average} & 0.818 / 22.98 / 0.246 & 0.775 / 23.09 / 0.301 & 0.750 / 21.80 / 0.348 &  \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

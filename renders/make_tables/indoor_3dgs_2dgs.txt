@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Averaged results on MP360 Indoor Scenes: Side-by-side comparison 3DGS vs 2DGS.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{c|cc}
+  \hline
+    \textbf{Regions} & \textbf{3dgs} & \textbf{2dgs} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.9223 / 30.92 / 0.1884 & 0.9091 / 30.03 / 0.2146 \\
+    \textbf{Region 1} & 0.9153 / 30.50 / 0.1319 & 0.9104 / 31.14 / 0.1432 \\
+    \textbf{Region 2} & 0.9041 / 28.75 / 0.1144 & 0.8947 / 29.43 / 0.1726 \\
+    \textbf{Region 3} & 0.8972 / 26.64 / 0.1002 & 0.8752 / 27.34 / 0.1285 \\
+    \textbf{Region 4} & 0.8731 / 23.64 / 0.0912 & 0.8545 / 24.56 / 0.1452 \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Averaged results on TnT Scenes: Side-by-side comparison Triangle Splatting2 vs 3DCS.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{c|cc}
+  \hline
+    \textbf{Regions} & \textbf{3dcs} & \textbf{triangle\_splatting2} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.8278 / 24.88 / 0.2271 & 0.7501 / 21.80 / 0.3480 \\
+    \textbf{Region 1} & 0.8195 / 25.21 / 0.1703 & 0.7384 / 21.82 / 0.2987 \\
+    \textbf{Region 2} & 0.7729 / 23.36 / 0.1682 & 0.6684 / 20.09 / 0.2950 \\
+    \textbf{Region 3} & 0.7313 / 21.12 / 0.2016 & 0.6132 / 18.42 / 0.3193 \\
+    \textbf{Region 4} & 0.6952 / 18.58 / 0.2330 & 0.5719 / 16.45 / 0.3655 \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

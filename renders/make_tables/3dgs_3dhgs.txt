@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Averaged results on TnT Scenes: Side-by-side comparison 3DGS vs 3D-HGS.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{c|cc}
+  \hline
+    \textbf{Regions} & \textbf{3dgs} & \textbf{3dhgs} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.8219 / 24.58 / 0.2463 & 0.8287 / 25.12 / 0.2386 \\
+    \textbf{Region 1} & 0.8137 / 24.85 / 0.1827 & 0.8487 / 27.26 / 0.1668 \\
+    \textbf{Region 2} & 0.7661 / 22.95 / 0.1741 & 0.7944 / 25.36 / 0.1799 \\
+    \textbf{Region 3} & 0.7221 / 20.73 / 0.2064 & 0.7346 / 22.87 / 0.2102 \\
+    \textbf{Region 4} & 0.6851 / 18.20 / 0.2344 & 0.7001 / 19.99 / 0.2427 \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

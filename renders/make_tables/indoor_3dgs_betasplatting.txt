@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Averaged results on MP360 Indoor Scenes: Side-by-side comparison 3DGS vs Deformable Beta Splatting.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{c|cc}
+  \hline
+    \textbf{Regions} & \textbf{3dgs} & \textbf{beta\_splatting} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.9223 / 30.92 / 0.1884 & 0.9493 / 33.58 / 0.1403 \\
+    \textbf{Region 1} & 0.9153 / 30.50 / 0.1319 & 0.9461 / 33.36 / 0.0969 \\
+    \textbf{Region 2} & 0.9041 / 28.75 / 0.1144 & 0.9378 / 31.51 / 0.0870 \\
+    \textbf{Region 3} & 0.8972 / 26.64 / 0.1002 & 0.9344 / 29.00 / 0.0742 \\
+    \textbf{Region 4} & 0.8731 / 23.64 / 0.0912 & 0.9185 / 25.64 / 0.0632 \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

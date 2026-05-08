@@ -1,5 +1,5 @@
 # ============================================================
-# Images & Renders (large binary files — excluded from repo)
+# Images & Media (large binary files — excluded from repo)
 # ============================================================
 *.png
 *.jpg
@@ -10,6 +10,11 @@
 *.webp
 *.exr
 *.hdr
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.gif
 
 # ============================================================
 # Model Checkpoints & Outputs (can be very large)
@@ -25,7 +30,6 @@ cfg_args
 # ============================================================
 # Renders & Evaluation Outputs
 # ============================================================
-renders/
 */test/
 */train/
 nohup.out

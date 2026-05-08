@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Averaged results on TnT Scenes: Top (RADEGS) vs Bottom (3DGS).}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{c|cc}
+  \hline
+    \textbf{Regions} & \textbf{radegs} & \textbf{radegs\_masked} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.8177 / 22.75 / 0.2519 & 0.8189 / 22.91 / 0.2427 \\
+    \textbf{Region 1} & 0.8063 / 22.99 / 0.1955 & 0.8010 / 22.85 / 0.1888 \\
+    \textbf{Region 2} & 0.7558 / 21.54 / 0.1878 & 0.7563 / 21.53 / 0.1813 \\
+    \textbf{Region 3} & 0.7094 / 19.70 / 0.2196 & 0.7202 / 19.95 / 0.2071 \\
+    \textbf{Region 4} & 0.6766 / 17.63 / 0.2381 & 0.6920 / 18.08 / 0.2197 \\
+  \hline
+    \textbf{Regions} & \textbf{3dgs} & \textbf{masked\_3dgs} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.8219 / 24.58 / 0.2463 & 0.8258 / 24.66 / 0.2309 \\
+    \textbf{Region 1} & 0.8137 / 24.85 / 0.1827 & 0.8123 / 24.67 / 0.1699 \\
+    \textbf{Region 2} & 0.7661 / 22.95 / 0.1741 & 0.7733 / 22.99 / 0.1618 \\
+    \textbf{Region 3} & 0.7221 / 20.73 / 0.2064 & 0.7460 / 21.10 / 0.1811 \\
+    \textbf{Region 4} & 0.6851 / 18.20 / 0.2344 & 0.7161 / 18.79 / 0.1997 \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

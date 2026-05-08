@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Averaged results on MP360 Indoor Scenes: Side-by-side comparison 3DGS vs TriangleSplatting+.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{c|cc}
+  \hline
+    \textbf{Regions} & \textbf{3dgs} & \textbf{triangle\_splatting2} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.9223 / 30.92 / 0.1884 & 0.8851 / 28.05 / 0.2321 \\
+    \textbf{Region 1} & 0.9153 / 30.50 / 0.1319 & 0.8819 / 28.59 / 0.2029 \\
+    \textbf{Region 2} & 0.9041 / 28.75 / 0.1144 & 0.8655 / 27.47 / 0.1874 \\
+    \textbf{Region 3} & 0.8972 / 26.64 / 0.1002 & 0.8487 / 25.89 / 0.1729 \\
+    \textbf{Region 4} & 0.8731 / 23.64 / 0.0912 & 0.8349 / 23.75 / 0.1816 \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

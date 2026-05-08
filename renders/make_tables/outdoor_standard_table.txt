@@ -1,0 +1,47 @@
+\begin{table}[htbp]
+  \centering
+  \setlength{\tabcolsep}{3pt}
+  \caption{Quantitative results on the \textbf{MP360 Outdoor} dataset. Evaluated on SSIM, PSNR, and LPIPS.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \label{tab:tnt_results}
+  \begin{tabular}{c|c||c||c||c}
+  \hline
+     & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} \\
+  \hline
+    \textbf{Scenes} & \textbf{2dgs} & \textbf{3dcs} & \textbf{3dgs} & \textbf{3dhgs} \\
+  \hline
+    \textbf{bicycle} & 0.731 / 24.70 / 0.275 & 0.736 / 24.68 / 0.218 & 0.765 / 25.23 / 0.209 & 0.765 / 25.22 / 0.200 \\
+    \textbf{flowers} & 0.571 / 21.07 / 0.379 & 0.574 / 20.46 / 0.322 & 0.602 / 21.41 / 0.339 & 0.604 / 21.57 / 0.334 \\
+    \textbf{garden} & 0.837 / 26.60 / 0.155 & 0.851 / 27.09 / 0.113 & 0.864 / 27.36 / 0.108 & 0.863 / 27.44 / 0.106 \\
+    \textbf{stump} & 0.754 / 26.11 / 0.264 & 0.746 / 26.05 / 0.228 & 0.770 / 26.63 / 0.216 & 0.760 / 26.41 / 0.218 \\
+    \textbf{treehill} & 0.616 / 22.29 / 0.381 & 0.594 / 21.69 / 0.318 & 0.634 / 22.53 / 0.327 & 0.632 / 22.58 / 0.317 \\
+  \hline
+    \textbf{Average} & 0.702 / 24.15 / 0.291 & 0.700 / 23.99 / 0.240 & 0.727 / 24.63 / 0.240 & 0.725 / 24.64 / 0.235 \\
+  \hline
+     & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} \\
+  \hline
+    \textbf{Scenes} & \textbf{QGS} & \textbf{beta\_splatting} & \textbf{linprim} & \textbf{radegs} \\
+  \hline
+    \textbf{bicycle} & 0.612 / 23.25 / 0.386 & 0.846 / 27.86 / 0.190 & 0.740 / 24.66 / 0.235 & 0.808 / 25.41 / 0.167 \\
+    \textbf{flowers} & 0.417 / 18.92 / 0.515 & 0.711 / 24.22 / 0.298 & 0.611 / 21.53 / 0.321 & 0.656 / 21.50 / 0.277 \\
+    \textbf{garden} & 0.708 / 24.54 / 0.294 & 0.882 / 28.63 / 0.125 & 0.850 / 26.77 / 0.119 & 0.880 / 27.08 / 0.097 \\
+    \textbf{stump} & 0.654 / 24.69 / 0.368 & 0.849 / 29.11 / 0.180 & 0.732 / 25.22 / 0.241 & 0.813 / 27.24 / 0.182 \\
+    \textbf{treehill} & 0.507 / 21.36 / 0.499 & 0.758 / 25.83 / 0.291 & 0.617 / 21.83 / 0.346 & 0.668 / 22.40 / 0.266 \\
+  \hline
+    \textbf{Average} & 0.580 / 22.55 / 0.412 & 0.809 / 27.13 / 0.217 & 0.710 / 24.00 / 0.253 & 0.765 / 24.72 / 0.198 \\
+  \hline
+     & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} &  \\
+  \hline
+    \textbf{Scenes} & \textbf{radegs2} & \textbf{radfoam} & \textbf{triangle\_splatting2} &  \\
+  \hline
+    \textbf{bicycle} & 0.799 / 25.55 / 0.174 & 0.676 / 24.22 / 0.330 & 0.648 / 23.27 / 0.351 &  \\
+    \textbf{flowers} & 0.645 / 21.69 / 0.300 & 0.572 / 21.38 / 0.370 & 0.524 / 19.72 / 0.390 &  \\
+    \textbf{garden} & 0.873 / 27.22 / 0.107 & 0.810 / 26.56 / 0.168 & 0.779 / 25.12 / 0.225 &  \\
+    \textbf{stump} & 0.795 / 26.70 / 0.209 & 0.710 / 25.40 / 0.292 & 0.688 / 24.77 / 0.324 &  \\
+    \textbf{treehill} & 0.680 / 22.98 / 0.267 & 0.594 / 22.04 / 0.398 & 0.556 / 21.03 / 0.417 &  \\
+  \hline
+    \textbf{Average} & 0.758 / 24.83 / 0.212 & 0.672 / 23.92 / 0.312 & 0.639 / 22.78 / 0.341 &  \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

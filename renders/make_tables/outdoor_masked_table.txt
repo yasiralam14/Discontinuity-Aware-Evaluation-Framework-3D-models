@@ -1,0 +1,27 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Averaged results on MP360 Outdoor Scenes: Top (RADEGS) vs Bottom (3DGS).}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{c|cc}
+  \hline
+    \textbf{Regions} & \textbf{radegs} & \textbf{radegs\_masked} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.7652 / 24.72 / 0.1978 & 0.7661 / 24.84 / 0.1870 \\
+    \textbf{Region 1} & 0.7949 / 26.80 / 0.1542 & 0.7931 / 26.79 / 0.1478 \\
+    \textbf{Region 2} & 0.7731 / 25.10 / 0.1518 & 0.7736 / 25.12 / 0.1454 \\
+    \textbf{Region 3} & 0.7564 / 22.97 / 0.1284 & 0.7606 / 23.06 / 0.1222 \\
+    \textbf{Region 4} & 0.7264 / 21.08 / 0.1810 & 0.7311 / 21.25 / 0.1672 \\
+  \hline
+    \textbf{Regions} & \textbf{3dgs} & \textbf{masked\_3dgs} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.7269 / 24.63 / 0.2400 & 0.7319 / 24.65 / 0.2229 \\
+    \textbf{Region 1} & 0.7627 / 26.90 / 0.1797 & 0.7617 / 26.62 / 0.1690 \\
+    \textbf{Region 2} & 0.7390 / 25.14 / 0.1681 & 0.7415 / 25.01 / 0.1608 \\
+    \textbf{Region 3} & 0.7190 / 22.85 / 0.1437 & 0.7285 / 22.87 / 0.1333 \\
+    \textbf{Region 4} & 0.6843 / 20.78 / 0.2124 & 0.6957 / 20.95 / 0.1923 \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

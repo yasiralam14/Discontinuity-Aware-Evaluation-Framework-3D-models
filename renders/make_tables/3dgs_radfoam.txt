@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Averaged results on TnT Scenes: Side-by-side comparison 3DGS vs Radian Foam.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{c|cc}
+  \hline
+    \textbf{Regions} & \textbf{3dgs} & \textbf{radfoam} \\
+     & \small SSIM / PSNR / LPIPS & \small SSIM / PSNR / LPIPS \\
+  \hline
+    \textbf{Standard} & 0.8219 / 24.58 / 0.2463 & 0.7752 / 23.09 / 0.3012 \\
+    \textbf{Region 1} & 0.8137 / 24.85 / 0.1827 & 0.7845 / 24.38 / 0.2420 \\
+    \textbf{Region 2} & 0.7661 / 22.95 / 0.1741 & 0.7292 / 23.26 / 0.2474 \\
+    \textbf{Region 3} & 0.7221 / 20.73 / 0.2064 & 0.6725 / 21.53 / 0.2788 \\
+    \textbf{Region 4} & 0.6851 / 18.20 / 0.2344 & 0.6334 / 18.97 / 0.3419 \\
+  \hline
+  \end{tabular}
+  }
+\end{table}

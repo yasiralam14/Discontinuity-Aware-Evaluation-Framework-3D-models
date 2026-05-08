@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Average quantitative results across TnT scenes per model.}
+  \label{tab:model_results}
+  \begin{tabular}{l|ccc}
+  \hline
+  \textbf{Model} & \textbf{PSNR} & \textbf{SSIM} & \textbf{LPIPS} \\
+  \hline
+  2dgs & 23.74 & 0.8037 & 0.2809 \\
+  3dcs & 24.88 & 0.8278 & 0.2271 \\
+  3dgs & 24.58 & 0.8219 & 0.2463 \\
+  3dhgs & 25.12 & 0.8287 & 0.2386 \\
+  QGS & 22.52 & 0.8068 & 0.2458 \\
+  beta\_splatting & 26.00 & 0.8427 & 0.2411 \\
+  linprim & 22.96 & 0.7995 & 0.2728 \\
+  radegs & 22.75 & 0.8177 & 0.2519 \\
+  radegs2 & 22.98 & 0.8181 & 0.2465 \\
+  radfoam & 23.09 & 0.7752 & 0.3012 \\
+  triangle\_splatting2 & 21.80 & 0.7501 & 0.3480 \\
+  \hline
+  \end{tabular}
+\end{table}

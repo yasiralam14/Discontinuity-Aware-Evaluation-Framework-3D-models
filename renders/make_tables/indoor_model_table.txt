@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Average quantitative results across MP-360 Indoor scenes per model.}
+  \label{tab:model_results}
+  \begin{tabular}{l|ccc}
+  \hline
+  \textbf{Model} & \textbf{PSNR} & \textbf{SSIM} & \textbf{LPIPS} \\
+  \hline
+  2dgs & 30.03 & 0.9091 & 0.2146 \\
+  3dcs & 31.26 & 0.9269 & 0.1671 \\
+  3dgs & 30.92 & 0.9223 & 0.1884 \\
+  3dhgs & 31.75 & 0.9270 & 0.1821 \\
+  QGS & 29.57 & 0.8998 & 0.2021 \\
+  beta\_splatting & 33.58 & 0.9493 & 0.1403 \\
+  linprim & 29.84 & 0.9189 & 0.1823 \\
+  radegs & 29.68 & 0.9299 & 0.1634 \\
+  radegs2 & 29.99 & 0.9278 & 0.1673 \\
+  radfoam & 30.65 & 0.9007 & 0.1988 \\
+  triangle\_splatting2 & 28.05 & 0.8851 & 0.2321 \\
+  \hline
+  \end{tabular}
+\end{table}

@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+  \centering
+  \caption{Average quantitative results across MP-360 outdoor scenes per model.}
+  \label{tab:model_results}
+  \begin{tabular}{l|ccc}
+  \hline
+  \textbf{Model} & \textbf{PSNR} & \textbf{SSIM} & \textbf{LPIPS} \\
+  \hline
+  2dgs & 24.15 & 0.7021 & 0.2908 \\
+  3dcs & 23.99 & 0.7002 & 0.2397 \\
+  3dgs & 24.63 & 0.7269 & 0.2400 \\
+  3dhgs & 24.64 & 0.7248 & 0.2351 \\
+  QGS & 22.55 & 0.5796 & 0.4123 \\
+  beta\_splatting & 27.13 & 0.8092 & 0.2168 \\
+  linprim & 24.00 & 0.7100 & 0.2527 \\
+  radegs & 24.72 & 0.7652 & 0.1978 \\
+  radegs2 & 24.83 & 0.7584 & 0.2115 \\
+  radfoam & 23.92 & 0.6724 & 0.3115 \\
+  triangle\_splatting2 & 22.78 & 0.6390 & 0.3413 \\
+  \hline
+  \end{tabular}
+\end{table}

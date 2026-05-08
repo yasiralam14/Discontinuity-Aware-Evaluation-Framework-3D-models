@@ -1,0 +1,41 @@
+\begin{table}[htbp]
+  \centering
+  \setlength{\tabcolsep}{3pt}
+  \caption{Averaged quantitative results across TnT scenes by region. Evaluated on SSIM, PSNR, and LPIPS.}\vspace{-10pt}
+  \resizebox{\linewidth}{!}{%
+  \label{tab:region_results}
+  \begin{tabular}{c|c||c||c||c}
+  \hline
+     & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} \\
+  \hline
+    \textbf{Regions} & \textbf{2dgs} & \textbf{3dcs} & \textbf{3dgs} & \textbf{3dhgs} \\
+  \hline
+    \textbf{Standard} & 0.8037 / 23.74 / 0.2809 & 0.8278 / 24.88 / 0.2271 & 0.8219 / 24.58 / 0.2463 & 0.8287 / 25.12 / 0.2386 \\
+    \textbf{Region 1} & 0.8256 / 25.32 / 0.2018 & 0.8195 / 25.21 / 0.1703 & 0.8137 / 24.85 / 0.1827 & 0.8487 / 27.26 / 0.1668 \\
+    \textbf{Region 2} & 0.7645 / 23.69 / 0.2189 & 0.7729 / 23.36 / 0.1682 & 0.7661 / 22.95 / 0.1741 & 0.7944 / 25.36 / 0.1799 \\
+    \textbf{Region 3} & 0.6944 / 21.58 / 0.2518 & 0.7313 / 21.12 / 0.2016 & 0.7221 / 20.73 / 0.2064 & 0.7346 / 22.87 / 0.2102 \\
+    \textbf{Region 4} & 0.6548 / 18.98 / 0.2901 & 0.6952 / 18.58 / 0.2330 & 0.6851 / 18.20 / 0.2344 & 0.7001 / 19.99 / 0.2427 \\
+  \hline
+     & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} \\
+  \hline
+    \textbf{Regions} & \textbf{QGS} & \textbf{beta\_splatting} & \textbf{linprim} & \textbf{radegs} \\
+  \hline
+    \textbf{Standard} & 0.8068 / 22.52 / 0.2458 & 0.8427 / 26.00 / 0.2411 & 0.7995 / 22.96 / 0.2728 & 0.8177 / 22.75 / 0.2519 \\
+    \textbf{Region 1} & 0.8225 / 23.84 / 0.2035 & 0.8328 / 26.35 / 0.1869 & 0.7880 / 22.79 / 0.2108 & 0.8063 / 22.99 / 0.1955 \\
+    \textbf{Region 2} & 0.7595 / 22.38 / 0.2080 & 0.7892 / 24.35 / 0.1804 & 0.7301 / 21.22 / 0.2070 & 0.7558 / 21.54 / 0.1878 \\
+    \textbf{Region 3} & 0.6942 / 20.52 / 0.2370 & 0.7471 / 22.00 / 0.2082 & 0.6759 / 19.45 / 0.2436 & 0.7094 / 19.70 / 0.2196 \\
+    \textbf{Region 4} & 0.6562 / 18.29 / 0.2925 & 0.7125 / 19.22 / 0.2346 & 0.6340 / 17.28 / 0.2836 & 0.6766 / 17.63 / 0.2381 \\
+  \hline
+     & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} & \textbf{SSIM} / \textbf{PSNR} / \textbf{LPIPS} &  \\
+  \hline
+    \textbf{Regions} & \textbf{radegs2} & \textbf{radfoam} & \textbf{triangle\_splatting2} &  \\
+  \hline
+    \textbf{Standard} & 0.8181 / 22.98 / 0.2465 & 0.7752 / 23.09 / 0.3012 & 0.7501 / 21.80 / 0.3480 &  \\
+    \textbf{Region 1} & 0.8103 / 23.16 / 0.1892 & 0.7845 / 24.38 / 0.2420 & 0.7384 / 21.82 / 0.2987 &  \\
+    \textbf{Region 2} & 0.7597 / 21.69 / 0.1825 & 0.7292 / 23.26 / 0.2474 & 0.6684 / 20.09 / 0.2950 &  \\
+    \textbf{Region 3} & 0.7118 / 19.79 / 0.2169 & 0.6725 / 21.53 / 0.2788 & 0.6132 / 18.42 / 0.3193 &  \\
+    \textbf{Region 4} & 0.6740 / 17.58 / 0.2433 & 0.6334 / 18.97 / 0.3419 & 0.5719 / 16.45 / 0.3655 &  \\
+  \hline
+  \end{tabular}
+  }
+\end{table}
